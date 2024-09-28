@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Crash;
+    src: url(crash-a-like.ttf);
+  }
+  
+  body {
+    background-color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /*
+      background-repeat: no-repeat;
+      background-size: cover;
+      */
+    font-size: 20px;
+    color: white;
+  }
+  
+  section {
+    margin: 0 3rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Crash;
+  }
+  
+  h4 {
+    font-size: 24px;
+  }
+  
+  div > h4 {
+    text-align: center;
+  }
+  div > p {
+    text-align: center;
+  }
+  
+  body > section > p {
+    text-align: justify;
+  }
+  
+  body > section > h3 {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(0, 0, 255, 0.555);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Crash;
+  }
+  
+  body > section > figure {
+    align-items: center;
+    align-content: center;
+  }
+  
+  .container {
+    /*    width: 100%;
+        max-width: 1200px; */
+    margin: 0 auto;
+    padding: 6px 20px;
+  }
+  
+  /* 
+    .navegacao {
+      background-color: orangered;
+      padding: 20px 0;
+      border-radius: 20px;
+      width: 1800px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    }
+    
+    .navegacao ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; Centraliza a barra de navegação 
+      gap: 1px; 
+    }
+    
+    .navegacao ul li {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navegacao ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    /*
+    .navegacao ul li a:hover {
+        background-color: orangered;
+        border-radius: 5px;
+    } */
+  
+  .navegacao {
+    background-color: orangered;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .navegacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .navegacao ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+  }
+  
+  .navegacao ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Impact", sans-serif;
+    padding: 10px 10px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navegacao ul li a:hover {
+    background-color: #ff4500;
+  }
+  
+  figure > img {
+    border-radius: 10px; /* Torna as imagens quadradas com bordas levemente arredondadas */
+    width: 550px; /* Aumenta o tamanho das imagens */
+    height: 450px;
+    /*object-fit: cover; /* Mantém a proporção da imagem */
+    border: 2px solid orangered;
+  }
+  .logos_e_capas > figure > img {
+    border-radius: 10px;
+    border: 2px solid orangered;
+  }
+  img {
+    width: auto;
+  }
+  
+  figure {
+    margin: 1rem auto;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  footer {
+    background-color: orangered;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+  }
